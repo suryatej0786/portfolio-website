@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>homepage</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #feeae9;
+        scroll-behavior: smooth;
+      }
+
+      .bodypanel {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        /* background-color: #feeae9; */
+      }
+
+      .leftpanel {
+        width: 10%;
+        height: 100%;
+        background-color: #feeae9;
+        border: 1px solid black;
+      }
+
+      .toppanel {
+        width: 90%;
+        height: 10%;
+        border: 1px solid black;
+        background-color: #feeae9;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        width: 90%;
+        height: 80%;
+        border: 1px solid black;
+      }
+
+      .mainleftpanel {
+        display: flex;
+        width: 70%;
+        height: 100%;
+        background-color: #feeae9;
+      }
+
+      .mainrightpanel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        overflow: hidden;
+        align-content: space-around;
+        justify-content: space-around;
+        width: 29.6%;
+        height: 99.6%;
+        border: 1px solid black;
+        background-color: #feeae9;
+        min-width: 200px; /* Set a minimum width */
+      }
+      .javaimage,.premiereimage,.htmlimage,.cssimage,.javascriptimage,.angularjsimage {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .bottompanel {
+        display: flex;
+        width: 100%;
+        height: 11.5%;
+        border: 1px solid black;
+        background-color: #e8dbda;
+      }
+#htmldetails,#cssdetails,#javascriptdetails,#angularjsdetails,#premieredetails,#javadetails
+{
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+    width:100%;
+    height:100vh;
+    background-color: #feeae9;
+    border:2px solid black;
+}
+      /* Media query for smaller screens */
+      
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bodypanel">
+      <div class="leftpanel">leftpanel</div>
+      <div class="toppanel">toppanel</div>
+      <div class="main">
+        <div class="mainleftpanel">mainleftpanel</div>
+        <div class="mainrightpanel">
+          <div class="htmlimage">
+            <a href="#htmldetails"><img src="html.png" alt="javaimge" width="80px" height="80px" /></a>
+          </div>
+          <div class="cssimage">
+            <A href="#cssdetails"><img src="css.png" alt="javaimge" width="80px" height="80px" /></A>
+          </div>
+          <div class="javascriptimage">
+            <a href="#javascriptdetails"><img src="javascript.png" alt="javaimge" width="80px" height="80px" /></a>
+          </div>
+          <div class="angularjsimage">
+            <a href="#angularjsdetails"><img src="angularjs.png" alt="javaimge" width="80px" height="80px" /></a>
+          </div>
+          <div class="premiere">
+            <a href="#premieredetails"><img src="premiere.png" alt="javaimge" width="80px" height="80px" /></a>
+          </div>
+          <div class="javaimage">
+            <a href="#javadetails"><img src="java.png" alt="javaimge" width="80px" height="80px" /></a>
+          </div>
+        </div>
+        <div class="bottompanel">bottompanel</div>
+      </div>
+      
+    </div>
+    <!--2nd page html code-->
+    <div id="htmldetails">
+        <h1>   HELLO HTML!!</h1>
+    
+    </div>
+    <div id="cssdetails">
+        <h1>   HELLO CSS!!</h1>
+    
+    </div>
+    <div id="javascriptdetails">
+        <h1>   HELLO JAVASCRIPT!!</h1>
+    
+    </div>
+    <div id="angularjsdetails">
+        <h1>   HELLO ANGULARJS!!</h1>
+    
+    </div>
+    <div id="premieredetails">
+        <h1>   HELLO PREMIERE!!</h1>
+    
+    </div>
+    <div id="javadetails">
+        <h1>   HELLO JAVADETAILS!!</h1>
+    
+    </div>
+  </body>
+</html>
